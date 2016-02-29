@@ -1,0 +1,30 @@
+name = ACORN
+description = Theme for the ACORN educational website.
+package = Core
+version = VERSION
+core = 7.x
+
+; Stylesheets
+stylesheets[all][] = css/acorn.css
+stylesheets[all][] = css/header.css
+stylesheets[all][] = css/content.css
+stylesheets[all][] = css/footer.css
+stylesheets[all][] = css/home.css
+stylesheets[all][] = css/jquery.bxslider1.css
+stylesheets[all][] = css/responsive.css
+
+; script files
+scripts[] = js/jquery.bxslider.min.js
+
+; regions
+regions[header] = Header
+regions[topmenu] = TopMenu
+regions[content] = Content
+regions[sidebar] = Sidebar
+regions[footer] = Footer
+
+; Information added by Drupal.org packaging script on 2015-10-21
+version = “1.0”
+project = "drupal"
+datestamp = "1445457729"
+

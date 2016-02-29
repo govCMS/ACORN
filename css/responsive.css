@@ -1,0 +1,210 @@
+@media only screen and (max-width: 1085px) {
+
+	.site-header div.banner,
+	.main-navigation div.top-nav div.top-menu-container,
+	div.breadcrumb,
+	div.content-pane,
+	#footer div.content
+	{
+		width: 100%;
+	}
+	
+	.main-navigation ul.links li
+	{
+		margin-right: 0.5em;
+	} /* menu items move closer together */ 
+	
+	div.sidebar + div.main-content
+	{
+		margin: 0 .7em;
+		width: 65%;
+	}	
+	
+}
+
+@media only screen and (max-width: 685px) {
+
+	.site-header .top-banner
+	{
+		padding-top: 5px;
+	}
+	.site-header div.coa
+	{
+		float: none;
+		margin: 5px auto;
+	}
+	
+	.site-header div.logo
+	{
+		text-align: center;
+	}
+
+}
+
+@media only screen and (max-width: 900px) {
+
+	.main-content .front-page .bxslider div.field-name-field-image-text
+	{
+		font-size: 0.8em;
+	}
+	
+	div.title-overlay h2
+	{
+		width: 260px;
+	}
+	
+	div.node-home-page
+	{
+		margin-bottom: 0;
+	}
+	
+	div.content-pane
+	{
+		margin-bottom: 20px;
+	}
+
+	div.content-pane, #footer
+	{
+		padding-top: 5px;
+	}	
+	
+	div.home-button a {
+	    float: none;
+	    width: 720px;
+	    padding: 5px; /* fills out the button around the text */
+	    margin: 10px auto;
+	}
+	
+	div.home-button a span.link-text {
+		width: 100%;	
+	}
+	
+	#footer div.emergency
+	{
+		padding-top: 5px;
+		padding-bottom: 0;
+	}
+
+}
+
+@media only screen and (max-width: 750px) {
+	
+	.main-content .front-page .bxslider div.field-name-field-image-text
+	{
+		width: 16em;
+	}
+	
+	div.title-overlay h1
+	{
+		font-size: 2.5em;
+	}
+	
+	div.title-overlay h2
+	{
+		font-size: 0.8em;
+		width: 200px;
+	}
+	
+	div.home-button a {
+	    width: 620px;
+	}
+	
+	div.sidebar
+	{
+		display: block;
+		width: 300px;
+		margin: 10px;
+	}
+
+	div.sidebar + div.main-content
+	{
+		display: block;
+		width: 95%
+	}
+
+}
+
+@media only screen and (max-width: 700px)
+{
+
+	#footer ul.menu
+	{
+		line-height: normal;
+	}
+	
+	#footer
+	{
+		padding-bottom: 10px;
+	}
+	
+}
+
+@media only screen and (max-width: 650px) {
+	
+	div.title-overlay
+	{
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+
+	div.title-overlay h2
+	{
+		width: auto;
+	}
+	
+	.main-content .front-page .bxslider div.field-name-field-image-text
+	{
+		position: relative;
+		top: 0;
+		left: 0;
+		right: auto;
+		width: 96%;
+		border-radius: 0;
+	}
+	
+	.bxslider li .field-item p
+	{
+		margin: 0;
+	}
+	
+	div.home-button a span.right-arrow
+	{
+		display: none;
+	}
+
+	div.home-button a {
+	    width: 300px;
+	    padding: 0; /* fills out the button around the text */
+	    margin: 5px auto;
+	}
+	
+}
+
+@media only screen and (max-width: 500px) {
+
+	div.title-overlay,
+	.main-navigation
+	{
+		text-align: center;
+	}
+	
+	
+	
+}
+
+@media only screen and (max-width: 350px)
+{
+	
+	.site-header div.logo a img
+	{
+		width: 100%;
+		height: auto;
+	}
+	
+	.site-header div.coa
+	{
+		width: 100%;
+	}
+
+}

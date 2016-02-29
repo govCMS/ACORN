@@ -1,0 +1,76 @@
+body
+{
+	margin: 0;
+	font-family: 'Open Sans', 'Myriad Pro', Verdana, Geneva, sans-serif !important;
+}
+
+p
+{
+	line-height: 1.714285714;
+	color: #404040;
+}
+
+/* @@@@ GOOGLE FONTS @@@@ */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://themes.googleusercontent.com/static/fonts/opensans/v8/xjAJXh38I15wypJXxuGMBobN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(https://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxjqR_3kx9_hJXbbyU8S6IN0.woff) format('woff');
+}
+
+a.selected
+{
+	font-weight: bold;
+}
+
+#skip-link
+{
+	display: inline;
+}
+
+#skip-link a
+{
+	position: absolute;
+	top: -500px;
+	transition-duration: 0.3s;
+}
+
+#skip-link a:focus
+{
+	position: absolute !important;
+	padding: 1em;
+	background-color: #999;
+	color: #000;
+	z-index: 1;
+	top: 24px;
+	left: 24px;
+}
+
+.navbar-horizontal #skip-link a:focus
+{
+	margin-top: 70px;
+}
+
+.navbar-vertical #skip-link a:focus
+{
+	margin-top: 30px;
+	margin-left: 250px;
+}

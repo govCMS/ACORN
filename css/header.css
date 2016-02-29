@@ -1,0 +1,162 @@
+.site-header
+{
+	margin-bottom: 20px;
+}
+
+.site-header .clearfix:after
+{
+	display: none;
+}
+
+.site-header div.top-banner
+{
+	background-color: #0C3F91;
+}
+
+.site-header div.banner
+{
+	width: 1086px;
+	margin: 0 auto;
+}
+
+.site-header div.logo
+{
+	right: 20px;
+	text-align: right;
+}
+
+.site-header div.logo a img
+{
+	width: 350px;
+	height: 99px;
+	font-size: 3em;
+	padding: 0.2em 0 0.2em 0;
+}
+
+.site-header div.coa
+{
+	float: left;
+	height: 52px;
+	line-height: 52px;
+	width: 300px;
+	margin: 23px 0 0 21px;
+	background: url(../images/crest-white.png) left center no-repeat;
+}
+
+.site-header div.coa a,
+.site-header div.coa a:focus,
+.site-header div.coa a:visited,
+.site-header div.coa a:active
+{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.site-header div.coa a
+{
+	display: inline-block;
+	line-height: normal;
+	padding-left: 80px;
+	vertical-align: middle;
+	margin-top: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Times New Roman, serif;
+}
+
+.skipnav a
+{
+	position: absolute;
+	top: -500px;
+	transition-duration: 0.3s;
+}
+
+.skipnav a:focus
+{
+	padding: 1em;
+	background-color: #999;
+	top: 3em;
+	left: 1em;
+}
+
+/* Main Navigation - top menubar */
+.main-navigation div.top-nav
+{
+	border-top: 1px solid #ebebeb;
+	border-bottom: 1px solid #aaa;
+	box-shadow: 0 6px 8px 5px rgba(0,0,0,0.15);
+	background: linear-gradient(to bottom, #acada8 0%,#f2f2f2 31%,#f2f2f2 48%,#b7b7b7 100%);
+}
+
+.main-navigation div.top-nav div.top-menu-container
+{
+	width: 1086px;
+	margin: 0 auto;
+}
+
+.main-navigation ul.menu
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: 45px;
+}
+
+.main-navigation ul.menu li
+{
+	display: inline-block;
+}
+
+.main-navigation ul.menu li a
+{
+	padding: 0 4px;
+	text-transform: uppercase;
+	font-size: 1em;
+	color: #1d1d1d;
+	text-decoration: none;
+	list-style-position: outside;
+}
+
+/*
+.main-navigation ul.links li.first a
+{
+	padding-left: 0;
+}*/
+
+.main-navigation ul.menu li a.active
+{
+	font-weight: bold;
+}
+
+.main-navigation ul.menu li a:focus, ul.menu li a:hover
+{
+	text-decoration: underline;
+}
+
+div.top-menu-container > div.region
+{
+	display: inline-block;
+	margin-right: 30px;
+}
+
+div.top-menu-container form.search-form
+{
+	display: inline-block;
+}
+
+div.top-menu-container form.search-form input.form-text
+{
+	width: 150px;
+	font-size: 1em;
+}
+
+div.top-menu-container form.search-form input.form-submit
+{
+	font-size: 1em;
+}
+
+div.top-menu-container form.search-form div.form-item-keys label
+{
+	position: absolute;
+	top:-1000px;
+}

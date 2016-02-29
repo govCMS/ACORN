@@ -1,0 +1,127 @@
+div.title-overlay
+{
+	z-index: 100;
+	position: absolute;
+	top: 20px;
+	left: 50px;
+}
+
+div.title-overlay h1,
+div.title-overlay h2
+{
+	color: #000;
+	text-shadow: none;
+}
+
+div.title-overlay h1
+{
+	font-size: 3em;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+div.title-overlay h2
+{
+	font-size: 1em;
+	margin-top: 0;
+}
+
+div.node-home-page
+{
+	margin-bottom: 60px;
+	padding: 0 20px;
+	border: 1px solid #AAA;
+	background-color: #eee;
+}
+
+div.footer.home
+{
+	box-shadow: inset 3px 10px 14px -2px rgba(0,0,0,0.4);
+}
+
+div.footer.home div.emergency
+{
+    padding: 5px;
+    width: 100%;
+    font-size: 0.75em;
+    text-align: left;
+    padding-top: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.home-button a:visited, div.home-button a:hover, div.home-button a:focus
+{
+    color: #fff;
+}
+
+div.home-button span.link-text
+{
+    color: #fff;
+    display: table-cell; /* allows us to use 'vertical-align' to position the text */
+    vertical-align: middle;
+    width: 214px;
+    padding-left: 10px;
+}
+
+div.home-button a
+{
+    background-color: #CC3F2F;
+}
+
+div.home-button span.right-arrow
+{
+    background-color: #D46D61;
+}
+
+div.home-button:first-child a
+{
+    background-color: #857541;
+}
+
+div.home-button:first-child span.right-arrow
+{
+    background-color: #D6CDB4;
+}
+
+div.home-button:last-child a {
+    background-color: #C44400;
+}
+
+div.home-button:last-child span.right-arrow
+{
+    background-color: #FABA82;
+}
+
+div.home-button a:hover, div.home-button a:focus {
+    background-color: #000;
+}
+
+div.home-button a {
+    display: table; /* This means we can use 'disply: table-cell' to position the child elements */
+    line-height: normal;
+    text-align: left;
+    float: left;
+    font-weight: bold;
+    width: 28%;
+    padding: 11px; /* fills out the button around the text */
+    height: 50px;
+    border-radius: 48px;
+    margin: -38px 1.4% 0 1.4%;
+    z-index: 5;
+    box-shadow: inset 3px 3px 20px 0px rgba(0,0,0,0.4);
+    text-decoration: none;
+}
+
+div.home-button span.right-arrow {
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 30px;
+    width: 54px;
+    height: 54px;
+    float: right;
+    background-image: url(../images/right-arrow-square.png);
+    background-position: -2px -3px;
+}
