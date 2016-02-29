@@ -1,1 +1,1 @@
-# ACORN
+# ACORN theme for govCMS website
